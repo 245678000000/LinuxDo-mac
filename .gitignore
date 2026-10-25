@@ -1,0 +1,33 @@
+# Build products and local tool caches
+build/
+.build/
+DerivedData/
+ModuleCache/
+*.dSYM/
+*.dmg
+*.zip
+
+# macOS and editor metadata
+.DS_Store
+._*
+.idea/
+.vscode/
+*.xcuserstate
+xcuserdata/
+
+# Local configuration, account state and credentials
+.env
+.env.*
+!.env.example
+*.p12
+*.mobileprovision
+*.key
+*.log
+.codex/
+.kiro/
+.agents/
+
+# Local QA and delivery folders
+outputs/
+work/
+qa/
